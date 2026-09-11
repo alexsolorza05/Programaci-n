@@ -22,7 +22,7 @@ class Interfaz:
         cuenta = self.__cajero.obtener_cuenta(nro_cuenta)
 
         if not cuenta:
-            input("Número de cuenta no encontrado. Ingrese nuevamente")
+            input("Número de cuenta no encontrado. Ingrese nuevamente: ")
             return False
 
         num_cliente = int(input("Ingrese su Número de Cliente: "))
